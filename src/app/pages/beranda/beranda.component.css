@@ -1,0 +1,52 @@
+.wrap
+{
+	max-width: 1320px;
+	margin-right: 20%;
+	margin-left: 25%;
+	background-color: gray;
+}
+.search
+{
+	margin-left: 71.5%;
+	padding: 10px 5px;
+}
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle 
+  {
+    width: 60%;
+    margin-top: -20px;
+  }
+#thumbnailkonten
+{
+  height: 205px;
+  width: 185px;
+  cursor: pointer;
+  transition: 0.3S;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+p.judulkonten
+{
+ text-align: justify;
+ font-size: 24px;
+ margin-left: 80px;
+ margin-top: 25px;
+ color: white;
+}
+
+.judulkonten:hover
+{
+  cursor: pointer;
+  opacity: 0.8;
+}
+p.konten
+{
+	margin-left: 50px;
+	text-indent: 30px;
+	text-align: justify;
+}

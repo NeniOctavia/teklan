@@ -1,0 +1,12 @@
+<h3>SELAMAT DATANG DUNIA</h3>
+
+<div>
+	{{dataS | json}}
+</div>
+
+<table>
+	<tr *ngFor="let n of dataS;">
+		<td>{{n.nama}}</td>
+		<td>{{n.kelas}}</td>
+	</tr>
+</table>
